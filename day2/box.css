@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: rgb(180, 180, 180);
+  width: 600px;
+  margin: 0 auto;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
