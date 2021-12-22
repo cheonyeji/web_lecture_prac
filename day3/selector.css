@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0066ff;
+  animation-name: change-color;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 3;
+}
+
+@keyframes change-color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0066ff;
+  transition: all 200ms ease-in;
+}
+
+.circle:hover {
+  font-size: 40px;
+  background-color: #ff4949;
+}
